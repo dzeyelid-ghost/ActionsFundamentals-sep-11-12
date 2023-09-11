@@ -9,12 +9,9 @@ jobs:
   test-action:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3.3.0
-
       - name: Run my own container action
         id: hello-action
-        uses: ./hello-world-docker-action
+        uses: dzeyelid-ghost/hello-world-docker-action2@v1
         with:
           who-to-greet: '@dzeyelid-ghost'
 
