@@ -1,0 +1,12 @@
+name: aaa
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dzeyelid-ghost/hello-world-docker-action2
+        with:
+          who-to-greet: @dzeyelid-ghost
