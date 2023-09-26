@@ -7,6 +7,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: dzeyelid-ghost/hello-world-docker-action2
+      - uses: dzeyelid-ghost/hello-world-docker-action2@main
         with:
-          who-to-greet: @dzeyelid-ghost
+          who-to-greet: '@dzeyelid-ghost'
